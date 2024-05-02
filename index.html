@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çicek Dünyası</title>
+
+    <!--font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fa fa-bars"></label>
+
+        <a href="#" class="logo">Begonya<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <!-- başlık bölümü bitti -->
+
+    <!-- ev bölümü başlar -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Çicek Bahçesi</h3>
+            <BR></BR>
+
+            <span>Doğal & Güzel Çicekler</span>
+            <br><br>
+            <p>Lorem İpsum Dolor Sit, Amet Consectetur Adipisicing Elit. Porro Cumque Officiis Velit Libero Debitis
+                Culpa Ad, Placeat Delectus Blanditiis Repellendus Polorem Vel, Cum, Quasi Fugit Saepe Molestias Eius
+                Suscipit Voluptate!</p>
+            <br><br>
+            <a href="#" class="btn">Şimdi Göster</a>
+        </div>
+    </section>
+    <!--ev bölümü biter  -->
+
+    <!-- hakkında bölümü başlar -->
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span> Hakkımızda </span> kullanıcılar </h1>
+
+        <div class="row">
+
+            <div class="video-container">
+                <video src="about-vid..mp4" loop autoplay muted></video>
+                <h3>En İyi Çicek Satıcısı</h3>
+            </div>
+
+            <div class="content">
+                <h3>Neden Bizi Seçmelisiniz?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum necessitatibus, magnam consectetur
+                    nisi, totam optio labore voluptatibus fugiat reprehenderit error eveniet molestiae facere ullam,
+                    iusto quasi veritatis! Minus harum qui impedit eligendi expedita, tempora, quasi blanditiis natus ab
+                    laboriosam adipisci. Doloremque iure assumenda sit, illo id eius adipisci itaque accusantium, quasi
+                    expedita ducimus, libero quia totam accusamus dolorem odit reprehenderit!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam delectus praesentium id quo dolore
+                    doloremque, autem aliquid distinctio? Veritatis harum doloremque praesentium facere aliquam, odit
+                    laborum velit est ea sed sit quo eaque fugit, suscipit quas maiores eius. Quod, iusto?</p>
+                <br>
+                <br>
+                <a href="#" class="btn">Daha Fazla Bilgi Edin</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- hakkında bölümü biter -->
+
+    <!-- simgeler bölümü başlar -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWrMTBIXIt8EHRisYs_8c9INts4F_tOfNugQ&usqp=CAU"
+                alt="">
+            <div class="info">
+                <h3>Ücretsiz Teslimat</h3>
+                <span>Tüm Siparişlerde</span>
+            </div>
+        </div>
+
+
+        <div class="icons">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <div class="info">
+                <h3>10 Günde İade</h3>
+                <span>Para İade Garanti</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-uhBuBBFDRu8gm63_MBk0KxH_6c8SmCbQA&usqp=CAU"
+                alt="">
+            <div class="info">
+                <h3>Teklif ve hediyeler</h3>
+                <span>Tüm Siparişlerde</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <div class="info">
+                <h3>Güvenli Ödemeler</h3>
+                <span>Paypal Tarafından Korunuyor</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- simgeler bölümü biter -->
+
+    <!-- ürünler bölümü başlar -->
+
+    <section class="products" id="products">
+        <h1 class="heading">Kalan <span>Ürünler</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at4773-1/M/at4773-1-8da3d6aa93af5a3-4232096.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lavanta Esintisi</h3>
+                    <div class="price"> $12.99 <span> $15.99</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at5107-1/M/at5107-1-8db83b560be86ef-de9a9ea6.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ofis çiceği</h3>
+                    <div class="price"> $10.99 <span> $15.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at4172-1/M/dekoratif-saksida-chamadore-ve-kalanchoe-at4172-1-751877939ec341d385d328b9c5496df8.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Areca palmiyesi</h3>
+                    <div class="price"> $25.99 <span> $35.99</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at281-1/M/kar-beyaz-gul-ve-lilyum-at281-1-10.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Beyaz Zambak</h3>
+                    <div class="price"> $30.99 <span> $45.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at353-1/M/5-dal-beyaz-orkide-aranjmani-at353-1-8d46a363ee36ec2-80933a56.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Beyaz Orkide</h3>
+                    <div class="price"> $50.99 <span> $75.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-30%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at1876-1/M/at1876-1-8d7ae480dd83f89-8a0e220d.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Karışık Aranjmanı</h3>
+                    <div class="price"> $25.99 <span> $30.99</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at4703-1/M/at4703-1-8d9e9b393cb3c53-7527edd8.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Zambak Ferahlığı</h3>
+                    <div class="price"> $110.99 <span> $125.99</span></div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at4861-1/M/at4861-1-8db7bf790309734-78732e43.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Tatlı Bahar</h3>
+                    <div class="price"> $85.99 <span> $115.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at3092-1/M/at3092-1-8d8c92a9d48851b-26762dbf.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Pembe Gerbera</h3>
+                    <div class="price"> $98.99 <span> $115.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="https://cdn03.ciceksepeti.com/cicek/at5340-1/M/at5340-1-8dbe757f7c53313-9ca5e6c6.jpg"
+                        alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Sepete Ekle</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Hüsnüyusuf ve Pembe Gül</h3>
+                    <div class="price"> $125.99 <span> $145.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ürünler bölümü biter -->
+
+    <!-- inceleme bölümü başlar -->
+
+    <section class="review" id="review">
+        <h1 class="heading"><span>Yorumlar</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores rem non ipsam tenetur alias
+                    excepturi? ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum quam doloribus aperiam
+                    corporis aspernatur tempora officia perferendis animi, voluptates, in laudantium, nemo ab dolores
+                    necessitatibus dicta distinctio optio voluptas.</p>
+
+                <div class="user">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ73SOdxDCIwW2JV1FT0WORzn3Ks5ShEkp4Ig&usqp=CAU"
+                        alt="">
+                    <div class="user-info">
+                        <h3>Burak Kara</h3>
+                        <span>Mutlu Müşteri</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas numquam nostrum magnam ipsa
+                        aspernatur suscipit doloribus accusamus veniam quod vitae. ipsum dolor sit amet consectetur
+                        adipisicing elit. Non voluptatum quam doloribus aperiam corporis aspernatur tempora officia
+                        perferendis animi, voluptates, in laudantium, nemo ab dolores necessitatibus dicta distinctio
+                        optio voluptas.</p>
+                    <div class="user">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnJ7A5C3tBkWWFLanfHkBas_ogqTExE0hMhg57sgHMUO0r429WYLrWkLqjCHciBwzGU3Y&usqp=CAU"
+                            alt="">
+                        <div class="user-info">
+                            <h3>Sinem Korkmaz</h3>
+                            <span>Mutlu Müşteri</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quas possimus labore laborum a
+                        soluta repellendus mollitia sequi blanditiis ea! ipsum dolor sit amet consectetur adipisicing
+                        elit. Non voluptatum quam doloribus aperiam corporis aspernatur tempora officia perferendis
+                        animi, voluptates, in laudantium, nemo ab dolores necessitatibus dicta distinctio optio
+                        voluptas.</p>
+
+                    <div class="user">
+                        <img src="https://tr-static.eodev.com/files/dfe/aa0f20c123074e19487f4827f73b4866.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Bora Karabey </h3>
+                            <span>Mutlu Müşteri</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+    </section>
+    <!-- inceleme bölümü biter -->
+
+    <!-- iletişim bölümü başlıyor -->
+    <section class="contact" id="contact">
+        <h1 class="heading"> <span>Bize </span>Ulaşın</h1>
+
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="isim" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="numara" class="box">
+                <textarea name="" class="box" placeholder="mesaj" cols="30" rows="10"></textarea>
+                <input type="submit" value="mesaj gönder" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="https://st5.depositphotos.com/3271675/65793/v/450/depositphotos_657930040-stock-illustration-multicultural-boy-girls-engaged-gardening.jpg"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <!-- iletişim bölümü bitiş -->
+
+    <!-- alt bilgi bölümü başlar-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Hızlı Linkler</h3>
+                <a href="#">Ev</a>
+                <a href="#">Hakkımızda</a>
+                <a href="#">Ürünler</a>
+                <a href="#">Gözden Geçir</a>
+                <a href="#">Temas Edilen</a>
+            </div>
+
+            <div class="box">
+                <h3>Ekstra Linkler</h3>
+                <a href="#">Hesabım</a>
+                <a href="#">Siparişim</a>
+                <a href="#">Favorilerim</a>
+            </div>
+
+            <div class="box">
+                <h3>Yerler</h3>
+                <a href="#">Türkiye</a>
+                <a href="#">Güney Kore</a>
+                <a href="#">İtalya</a>
+                <a href="#">Fransa</a>
+            </div>
+
+            <div class="box">
+                <h3>İletişim Bilgileri</h3>
+                <a href="#">+905394153298</a>
+                <a href="#">Example@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2FTszY2s6EKgmsi7ipJZO9DKRYm85d-CVbFJQpEUsbyFcxI2x6Flr_xDuW8k1el8Mg&usqp=CAU"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="credit">Tarafından Yatırıldı <span> Bayan web Tasarımcısı </span> Her Hakkı Saklıdır </div>
+    </section>
+    <!-- alt bilgi bölümü bitiş-->
+
+</body>
+
+</html>
